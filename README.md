@@ -84,7 +84,7 @@ Lege **service_records.csv** und **line_items.csv** ins Projekt-Root (gleicher O
 
 ### 1) Laden & Standardisieren
 - CSV Import
-- Spaltennamen werden via `janitor::clean_names()` vereinheitlicht (snake_case)
+- Spaltennamen vereinheitlicht
 
 ### 2) Parsing & Hauptmetrik
 - `visit_date` wird in ein echtes Datum umgewandelt
