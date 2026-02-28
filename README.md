@@ -50,7 +50,7 @@ Lege **service_records.csv** und **line_items.csv** ins Projekt-Root (gleicher O
 ---
 
 ## Ausführen In RStudio
-1. Projekt/Ordner öffnen
+1. Projekt öffnen
 2. `analysis.R` öffnen
 3. Skript ausführen 
 
@@ -93,7 +93,7 @@ Lege **service_records.csv** und **line_items.csv** ins Projekt-Root (gleicher O
 
 ### 3) Datenchecks (Konsole)
 - Missing-Rate pro Spalte
-- Basisstatistiken zu `cost` (n, NA, 0, negativ, min/median/mean/max)
+- Basisstatistiken zu `cost` ( NA, 0, negativ, min/median/mean/max)
 - Top-3 teuerste Rechnungen 
 
 ### 4) Visualisierungen 
