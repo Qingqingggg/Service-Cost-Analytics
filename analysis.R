@@ -57,7 +57,7 @@ service_records <- mutate(
 )
 
 # --------------------------------
-# Quick data checks and summaries
+# data checks and summaries
 # --------------------------------
 
 missing_rate <- summarise(
@@ -168,7 +168,7 @@ p3 <- ggplot(drivers_long, aes(x = total_cost, y = driver)) +
 
 ggsave("figures/03_cost_drivers.png", p3, width = 8, height = 5, dpi = DPI)
 
-# 4) Service types from line_items: Aggregate line-item costs by service_type, then plot the top 15
+# 4) Service types from line_items: Aggregate line-item costs by service_type;plot the top 15
 
 #Summarise total cost per service type
 service_type_cost <- summarise(

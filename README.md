@@ -97,10 +97,11 @@ Lege **service_records.csv** und **line_items.csv** ins Projekt-Root (gleicher O
 - Top-3 teuerste Rechnungen 
 
 ### 4) Visualisierungen 
-1. **01_cost_hist.png** – Kostenverteilung (Histogramm)
-2. **02_cost_over_time.png** – Monatliche Gesamtkosten 
-3. **03_cost_drivers.png** – Kostentreiber (Summe der Komponenten)
-4. **04_service_type_cost.png** – Top-Servicearten nach Line-Item-Kosten
+## Visualisierungen
+1. `figures/01_cost_hist.png` – Kostenverteilung (Histogramm)  
+2. `figures/02_cost_over_time.png` – Monatliche Gesamtkosten  
+3. `figures/03_cost_drivers.png` – Kostentreiber (Summe der Komponenten)  
+4. `figures/04_service_type_cost.png` – Top 15 Servicearten nach Line-Item-Kosten  
 
 ---
 
